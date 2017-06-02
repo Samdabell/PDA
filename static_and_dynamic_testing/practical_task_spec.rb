@@ -21,8 +21,7 @@ class TestPracticalTask < MiniTest::Test
   end
 
   def test_looper
-    expected = 1..10
-    assert_equal(expected, looper)    
+    assert_equal(10, looper)    
   end
 
 end

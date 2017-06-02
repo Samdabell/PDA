@@ -16,14 +16,14 @@ end
   
 def looper 
   for i in 1..10
-    puts i
+    num = i
   end
+  return num
 end
  
 failures = 0 
  
-expected = 1..10
-if looper == expected
+if looper == 10
   puts "looper passed"
 else
   puts "looper failed"
